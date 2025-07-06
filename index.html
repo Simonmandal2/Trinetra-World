@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trinetra World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfcf9;
+      color: #333;
+    }
+    header {
+      background-color: #f3ebe2;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #3b2c2c;
+    }
+    header p {
+      margin-top: 5px;
+      font-size: 1em;
+      color: #6b5e5e;
+    }
+    .search-section {
+      padding: 30px;
+      text-align: center;
+    }
+    .search-section input, .search-section select, .search-section button {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 90%;
+      max-width: 400px;
+    }
+    .search-section button {
+      background-color: #d8b4a0;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .search-section button:hover {
+      background-color: #c49b89;
+    }
+    .footer {
+      background-color: #f3ebe2;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #6b5e5e;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      .search-section {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trinetra World</h1>
+    <p>Your Door-to-Door Travel Companion</p>
+  </header>
+
+  <section class="search-section">
+    <h2>Start Your Journey</h2>
+    <input type="text" placeholder="Enter location" />
+    <select>
+      <option value="budget">Search by Budget</option>
+      <option value="location">Search by Location</option>
+    </select>
+    <button>Find Trips</button>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Trinetra World. All rights reserved.
+  </footer>
+</body>
+</html>
